@@ -16,7 +16,7 @@ def draw_line(x,y,c,sp):
 	if ra.randint(0,1) <= 0.5:
 		c.create_line(x, y, x+sp, y+sp, fill="black")
 	else:
-		c.create_line(x, y+sp, x+sp, y)
+		c.create_line(x, y+sp, x+sp, y, fill="black")
 
 
 while y <= int(c["height"]):
